@@ -1,6 +1,6 @@
 # Restocks.net missing payout scraper
 
-This script creates a table that lists your sales from restock.net and shows which ones you still have payouts for.
+This script creates a table (CSV file) that lists your sales from restock.net and shows which ones you are still missing the payout for.
 I have tried this script with German payouts and don't know if it works with other regions.
 
 ## setup
