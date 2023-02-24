@@ -3,8 +3,12 @@
 This script creates a table (CSV file) that lists your sales from restock.net and shows which ones you are still missing the payout for.
 I have tried this script with German payouts and don't know if it works with other regions.
 
+If you just want to use the script, I recommend just using the exe. Then you don't need to install Python. Just fill the credentials.yxl and start the exe.
+
 ## setup
 ### requirements
+**If you want to use the exe, you can skip this part and go directly to *credential file*.**
+
 You need at least python version 3.11 and have to install the requirements.txt.
 It is also necessary that the emails have been sent from wise to a gmail.
 ```
@@ -17,6 +21,10 @@ To use this script, you need to add your Gmail address and the App Password, as 
 If your email address from wise should be different, then you can replace it there as well.
 
 ## run the script
+###run the exe
+The exe can simply be executed with a double click and the script begins.
+
+### run the python script
 To execute the script, execute the following command:
 ```
 python main.py
