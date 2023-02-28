@@ -31,6 +31,13 @@ python main.py
 ```
 When the script is finished, you will get the status of your sales in the output.csv file.
 
+## important
+Make sure you are using at least version 0.1.3 of the restocks-client.
+To update the package use the following command.
+```
+pip install -U restocks-client
+```
+
 ## Credits
 
 The following resources were used in the creation of this project:
