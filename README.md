@@ -41,7 +41,7 @@ pip install -U restocks-client
 ## Credits
 
 The following resources were used in the creation of this project:
-- [Restocks-client by SSbanjo](https://github.com/SSbanjo/Restocks-client) - Used to retrieve sales data from Restocks.net.
+- [restocks-api-wrapper](https://github.com/AkiLetschne/restocks_api_wrapper) - Used to retrieve sales data from Restocks.net.
 - [PyYAML](https://pypi.org/project/PyYAML/) - Used to read and parse the YAML configuration file.
 - [Python's built-in csv module](https://docs.python.org/3/library/csv.html) - Used to read and write CSV files.
 - [Python's built-in pathlib module](https://docs.python.org/3/library/pathlib.html) - Used to create a Path object for the output file.

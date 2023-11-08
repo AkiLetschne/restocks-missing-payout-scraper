@@ -1,2 +1,2 @@
 PyYAML~=6.0
-restocks-client~=0.1.3
+restocks-api-wrapper~=0.1.2

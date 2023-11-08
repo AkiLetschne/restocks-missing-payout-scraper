@@ -1,7 +1,7 @@
 import csv
 import yaml
 from pathlib import Path
-from restocks_client import get_restocks_sales
+from restocks_net_client import get_restocks_sales
 from wise_client import get_wise_mails
 
 
@@ -13,7 +13,7 @@ def create_csv(restocks_sales, wise_mails):
         writer.writerow(["ID", "PAYOUT"])
 
         for sale in restocks_sales:
-            payout = any(str(sale.id) in str(mail) for mail in wise_mails)
+            payout = any(str(sale.listing_id) in str(mail) for mail in wise_mails)
             if payout:
                 writer.writerow([sale.id, "True"])
             else:
